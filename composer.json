@@ -13,9 +13,10 @@
         }
     ],
     "autoload": {
-		"psr-4": {
-			"Qiye\\": "src/qiye"  
-		}
-	}
-
+        "psr-4": {
+            "own_application\\": "src/own_application",
+            "third_application\\": "src/third_application",
+            "access_file\\": "src/access_file"
+        }
+    }
 }

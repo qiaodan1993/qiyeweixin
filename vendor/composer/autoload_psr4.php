@@ -6,5 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Qiye\\' => array($baseDir . '/src/qiye'),
+    'third_application\\' => array($baseDir . '/src/third_application'),
+    'own_application\\' => array($baseDir . '/src/own_application'),
+    'access_file\\' => array($baseDir . '/src/access_file'),
 );
