@@ -1,0 +1,21 @@
+{
+    "name": "qiaodan/enterprise_wx",
+    "description": "package for qiyeweixin",
+    "type": "1",
+    "require": {
+        "php": "^7.4"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "qiaodan",
+            "email": "849557066@qq.com"
+        }
+    ],
+    "autoload": {
+		"psr-4": {
+			"Qiye\\": "src/qiye"  
+		}
+	}
+
+}
